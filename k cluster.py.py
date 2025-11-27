@@ -119,7 +119,7 @@ class KMeansScratch:
         
         return np.argmin(distances, axis=1)
 
-def generate_synthetic_dataset(n_samples=300, centers=4, cluster_std=0.8, random_state=42):
+def generate_synthetic_dataset(n_samples=500, centers=4, cluster_std=0.8, random_state=42):
     """
     Generate synthetic dataset with clear cluster structure
     """
